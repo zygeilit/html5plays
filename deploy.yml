@@ -5,7 +5,7 @@ services:
     restart: always
     image: html5plays:1.0
     ports:
-      - 7003:3000
+      - 8000:3000
     deploy:
       mode: replicated
       replicas: 1
